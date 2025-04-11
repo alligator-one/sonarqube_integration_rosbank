@@ -1,3 +1,4 @@
+# Задача: после создания pull request отправить Java-файлы на анализ в SonarQube
 
 **Проверка кода в SonarQube**
 
