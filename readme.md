@@ -27,9 +27,13 @@ Pipeline включает в себя следующие разделы:
 В этом разделе происходит обработка webhook из Bitbuckt, из полученного Json парсятся следующие переменные:
 
 *Repo* - Название репозитория
+
 *ownerName* - Название проекта
+
 *Branch* - Название ветки
+
 *PullRequest*- Номер pullrequest
+
 *Email* - Email коммитера
 
 **environment**
