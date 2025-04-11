@@ -35,14 +35,23 @@ Pipeline включает в себя следующие разделы:
 Переменные окружения, необходимые для работы pipeline.
 
 *BITBUCKET_BASE_URL*	- URL репозитория
+
 *URL_SONAR* - URL сканера для SonarQube
+
 *SONAR_SCANNER* - Название и версия сканера SonarQube
+
 *DOCKER_REGISTRY*- URL репозитория образов Docker
+
 *DEFAULT_CICD* - Путь по умолчанию для настроек CI-CD
+
 *CICD_BRANCH* - Ветка, в которой хранится pipeline
+
 *EXCLUSIONS* - Исключаемые из анализа типы файлов
+
 *DEFAULT_JAVAVERSION*	- Версия Java по умолчанию
+
 *DEFAULT_GRADLE* - Путь по умолчанию для build.gradle
+
 *NOT_FIND_MODULES* - Каталоги, исключаемые из поиска build.gradle
 
 **Настройка вебхука в Bitbucket**
