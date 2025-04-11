@@ -3,7 +3,9 @@
 
 Проверка кода в SonarQube осуществляется после создания Pull request в Bitbucket или после запуска задачи Jenkins (JENKINS_SERVER/job/abpm/job/Experiment/job/ExamplePipeline/job/Manual/). 
 
-Результаты проверки доступны на Dashboard  в SonarQube.  Название отчета в SonarQube: SMALL::<имя репозитория или имя приложения>::<имя модуля>::<Номер PullRequest>.
+Результаты проверки доступны на Dashboard  в SonarQube.  
+
+Название отчета в SonarQube: SMALL::<имя репозитория или имя приложения>::<имя модуля>::<Номер PullRequest>.
 
 После проверки коммиттеру отправляется email со ссылками на результаты анализа.
 
